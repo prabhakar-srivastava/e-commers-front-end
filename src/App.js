@@ -1,23 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import Merge from './components/nav/merge';
+
+import Home from './components/home/home';
+import Item from './components/item/item';
+import Itemdetails from './components/itemdetail/itemdetails';
+import {Routes,Route} from 'react-router-dom'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+        <Route path='/' element={<Merge/>}>
+          <Route index element={<Home/>}/>
+          <Route path='item' element={<Item/>} />
+          <Route path='item/:id'element={<Itemdetails/>}/>
+        </Route>
+      </Routes>
     </div>
   );
 }

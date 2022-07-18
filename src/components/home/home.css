@@ -1,0 +1,93 @@
+.container-home{
+    /* background-image: url(../../assets/start-removebg-preview-removebg-preview.png); */
+    background:url(../../assets/edit.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+  
+
+}
+.about-company{
+    /* background: #000; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 1rem;
+    padding: 0rem 2rem;
+
+}
+.comp-name{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.comp-name > h2{
+    background: rgba(0, 0, 0, 0.375);
+    padding: 1rem 1.4rem;
+    width: max-content;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    border-radius: 1rem;
+    backdrop-filter: blur(10px);
+    box-shadow: -0.2rem 1.2rem 2rem 0.1rem rgba(0, 0, 0, 0.879);
+    
+    
+}
+
+.comp-name >p{
+    background: rgba(0, 0, 0, 0.21);
+    padding: 0.5rem 1.4rem;
+    border-radius: 0.7em;
+}
+
+.shop{
+    background: rgba(0, 0, 0, 0.359);
+    border-radius: 1rem;
+    backdrop-filter: blur(10px);
+    padding: 1rem 1.4rem;
+    width: max-content;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 0.3s ease;
+    
+}
+.shop:hover{
+    box-shadow: -0.2rem 1.2rem 2rem 0.1rem rgba(0, 0, 0, 0.879);
+
+}
+
+ .greet{
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+    /* overflow: hidden; */
+}
+/* #img1{
+    background: green;
+    width: 40%;
+    position: relative;
+    top: 4rem;
+
+}
+#img2{
+    width: 30%;
+    background: #000;
+    position: absolute;
+    left: 20%;
+    top: 10%;
+    height: 40%;
+    
+    
+} */
+/* #img2{
+    background: #000;
+    transform: scale(0.4,0.7); 
+
+    margin: 1rem 2rem; 
+    padding: 1rem 2rem ;
+} */

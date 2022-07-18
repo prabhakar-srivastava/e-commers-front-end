@@ -1,0 +1,102 @@
+.container-nav{
+    /* background: rgba(0, 0, 0, 0); */
+    display: flex;
+    justify-content:space-between;
+    position: fixed;
+    width: 100%;
+}
+.navigate{
+    /* background: rgba(0, 128, 0, 0.563); */
+    display: flex;
+    gap:1rem;
+    margin: 0.5rem;
+    margin-right: 3rem;
+}
+.logo{
+    
+    background:rgba(255, 255, 255, 0.1);
+    padding: 1.2rem 1.8rem;
+    border-radius: 1.2rem;
+    margin: 0.5rem 1rem;
+    backdrop-filter: blur(10px);
+
+    
+}
+.logo:hover{
+    box-shadow: -0.1rem 0.3rem 1rem 0rem rgba(4, 232, 183, 0.767);
+    /* box-shadow: -0.2rem 1.2rem 2rem 0.1rem rgba(0, 0, 0, 0.84); */
+    transition: all 0.3s ease-in-out;
+}
+.logo >span{
+    border-radius: 1.2rem;
+    background: orange;
+    padding: 0.3rem 0.6rem;
+    color: black;
+    -webkit-text-stroke-width: 1px;;
+}
+.navigate > ul {
+    /* background: blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 0.6rem 0.2rem;
+    font-weight: 600;
+    
+}
+.navigate  > h4{
+    background:rgba(5, 114, 27, 0.61);
+    padding: 0.8rem 0.6rem;
+    border-radius: 0.8rem;
+    box-shadow: -0.2rem 1.2rem 2rem 0.1rem rgba(0, 0, 0, 0.71);
+    transition: all 0.3s ease;
+    margin: 0.2rem 0.5rem;
+    
+}
+
+.navigate >ul >li{
+    background:rgba(255, 255, 255, 0.1);
+    padding: 0.5rem;
+    box-shadow: -0.2rem 1.2rem 2rem 0.1rem rgba(0, 0, 0, 0.879);
+    transition: all 0.3s ease;
+    border-radius: 0.7rem;
+    backdrop-filter: blur(10px);
+}
+.navigate > ul >li:hover{
+    box-shadow: -0.1rem 0.3rem 1rem 0rem rgba(4, 232, 183, 0.767);
+    transform: scale(1.1,1.2);
+}
+.active{
+    
+    /* box-shadow: -0.2rem 1.2rem 2rem 0.1rem rgba(232, 152, 4, 0.71); */
+}
+.links{
+    /* background: #000; */
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0.2rem 1rem;
+}
+
+
+.container_footer{
+    background: linear-gradient(rgb(2, 5, 49),rgba(93, 7, 76, 0.681));
+    text-align: center;
+    /* background: rgba(0, 0, 0, 0.299); */
+    backdrop-filter: blur(10px);
+    width: 100%;
+
+
+   
+}
+/* ========== mobile========
+@media screen and (max-width:600px) {
+    .permalinks {
+        flex-direction: column;
+        gap: 1.5em;
+    }
+    .footer_socials{
+        margin-bottom: 2.6rem;
+
+    }
+} */

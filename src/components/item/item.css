@@ -1,0 +1,73 @@
+.container-item{
+    background-image: url(../../assets/edit.png);
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    padding: 5rem 2rem;
+    gap: 2.7rem;
+
+
+
+}
+.product{
+    margin-top: 2rem;
+    padding: 1.2rem;
+    background:rgba(245, 245, 245, 0.056);
+    backdrop-filter: blur(10px);
+    border-radius: 2rem;
+    border: 1px solid transparent;
+  
+    box-shadow:10px 20px 50px 5px rgb(18, 8, 10);
+    display: grid;
+    transition: all 0.3s ease;
+ 
+}
+.product:hover{
+
+    transform: scale(1.04,1.07);
+    box-shadow: -0.1rem 0.3rem 2rem 0rem rgba(4, 232, 183, 0.767);
+}
+
+.val-image{
+    overflow: hidden;
+    border-radius: 2rem;
+    /* background: blue; */
+    border: 1px solid transparent;
+    
+    /* transition: var(--transition); */
+}
+.val-image > img{
+    border-radius: 2rem;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    height: 100%;
+    background: rgb(203, 212, 18);
+}
+.delt{
+    /* background: #000; */
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+
+    /* padding: 1rem 1.3rem; */
+}
+.delt >h2{
+    text-align: center;
+}
+.buy{
+    /* background: #000; */
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.buy > button{
+    box-shadow:10px 20px 50px 5px rgb(18, 8, 10);
+    color: rgb(255, 255, 255);
+    background: rgba(14, 119, 14, 0.892);
+    font-size:2rem ;
+    padding: 0.3rem 1rem;
+    border-radius: 1rem;
+}
