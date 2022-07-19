@@ -42,6 +42,10 @@
     background: rgba(0, 0, 0, 0.21);
     padding: 0.5rem 1.4rem;
     border-radius: 0.7em;
+    width: 60%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .shop{
@@ -67,27 +71,4 @@
     flex-direction: column;
     /* overflow: hidden; */
 }
-/* #img1{
-    background: green;
-    width: 40%;
-    position: relative;
-    top: 4rem;
 
-}
-#img2{
-    width: 30%;
-    background: #000;
-    position: absolute;
-    left: 20%;
-    top: 10%;
-    height: 40%;
-    
-    
-} */
-/* #img2{
-    background: #000;
-    transform: scale(0.4,0.7); 
-
-    margin: 1rem 2rem; 
-    padding: 1rem 2rem ;
-} */
