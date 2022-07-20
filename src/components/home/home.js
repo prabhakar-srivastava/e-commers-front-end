@@ -1,6 +1,7 @@
 import React from 'react'
 import './home.css'
 import {Link} from 'react-router-dom'
+import Img from '../../assets/e-com-removebg-preview.png'
 
 const Home = () => {
   return (
@@ -19,8 +20,8 @@ const Home = () => {
             <div className='helo'>
                 thaks for reaching me
             </div>
-            {/* <img id='img1' src={Img} alt='not found'/>
-            <img id='img2' src={Img2} alt=' not found'/> */}
+            <img id='img1' src={Img} alt='not found'/>
+
         </div>
     
     

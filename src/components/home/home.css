@@ -70,5 +70,32 @@
     display: flex;
     flex-direction: column;
     /* overflow: hidden; */
+    padding: 4rem 2rem;
+    margin-top: 4rem;
+    #img1{
+        
+        width: 50%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }
-
+.helo{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.419);
+    text-align: center;
+    padding: 0.2rem 1rem;
+    width: max-content;
+    border-radius: 0.7rem;
+}
+ 
+/* =========media for mobile============= */
+@media screen and (max-width: 600px) {
+    .container-home{
+        grid-template-columns: 1fr;
+    }
+}
+    
+    

@@ -89,14 +89,3 @@
 
    
 }
-/* ========== mobile========
-@media screen and (max-width:600px) {
-    .permalinks {
-        flex-direction: column;
-        gap: 1.5em;
-    }
-    .footer_socials{
-        margin-bottom: 2.6rem;
-
-    }
-} */

@@ -1,0 +1,55 @@
+.container-contact{
+    background: url(../../assets/profile.png);
+    height: 100vh;
+    background-size: cover;
+}
+form {
+    /* width: 30%; */
+    height: max-content;
+    position: relative;
+    /* margin-top: 2rem; */
+    display: flex;
+    top: 50%;
+    transform: translateY(-50%);
+    flex-direction: column;
+    gap: 1.2rem;
+    padding: 3rem 2rem;
+    align-items: center;
+    overflow: hidden;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    background: rgba(0, 0, 0, 0.332);
+    border: 2px solid transparent;
+    resize: none;
+    color: white;
+    width: 50%;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+}
+
+form > textarea:hover,input:hover{
+    
+    border: 2px solid rgba(19, 17, 66, 0.555);
+    box-shadow: -0.2rem 1.2rem 4rem 0.1rem rgba(0, 0, 0, 0.867);
+    
+}
+
+.submit{
+    box-shadow:0.2rem 0.2rem 2rem 0.7rem rgb(18, 8, 10);
+    color: rgba(255, 255, 255, 0.83);
+    background: rgba(0, 0, 0, 0.703);
+    font-size:2rem ;
+    padding: 0.3rem 1rem;
+    border-radius: 1rem;
+    transition: all 0.3s ease;
+}
+.submit:hover{
+    background: rgba(10, 10, 78, 0.681);
+    box-shadow: -0.1rem 0.3rem 1rem 0rem rgba(4, 232, 183, 0.767);
+    transform: scale(1.1,1.2);
+}
